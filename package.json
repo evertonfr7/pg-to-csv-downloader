@@ -1,0 +1,34 @@
+{
+  "name": "pg-to-csv-downloader",
+  "version": "1.0.0",
+  "description": "Download tables from your PostgreSQL database to .csv files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertonfr7/pg-to-csv-downloader.git"
+  },
+  "keywords": [
+    "pg",
+    "postgresql",
+    "csv",
+    "download",
+    "dump",
+    "export",
+    "sql"
+  ],
+  "author": "Everton Fr.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evertonfr7/pg-to-csv-downloader/issues"
+  },
+  "homepage": "https://github.com/evertonfr7/pg-to-csv-downloader#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fast-csv": "^4.3.6",
+    "pg": "^8.7.1"
+  }
+}
